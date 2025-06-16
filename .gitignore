@@ -1,0 +1,54 @@
+# --- Build ---
+/target/
+/build/
+
+# --- IDEs ---
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
+*.out
+
+# --- Environment ---
+.env
+.env.*
+
+# --- Java ---
+*.class
+
+# --- Dependency Cache ---
+/.gradle/
+/mvnw
+/mvnw.cmd
+/.mvn/wrapper/
+
+# --- Temporary Files ---
+*.swp
+*.tmp
+*.bak
+*.orig
+
+# --- Test Reports ---
+/test-output/
+/surefire-reports/
+/jacoco.exec
+/coverage/
+
+# --- Spring Boot Dev Tools ---
+.spring-boot-devtools.properties
